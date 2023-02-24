@@ -1,11 +1,74 @@
-body {
-	background-color: aqua;
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 5vh;
+    border-bottom: 1px solid black;
 }
 
-nav{
+nav .container,
+main #components{
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    width: 70%;
-    margin: 0 auto;
+    justify-content: left;
+}
+
+main #components{
+    height: 95vh;
+
+}
+
+main #components .component{
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form-container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.range,
+.text{
+    margin: 20px 0;
+}
+
+p{
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+@media all and (max-width: 720px) {
+    main #components{
+        flex-direction: column;
+    }
+    
+    main #components .component{
+        width: 100%;
+        flex-grow: 0;
+    }
 }

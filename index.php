@@ -10,9 +10,11 @@
 </head>
 <body>
     <nav>
-        <h1>Fabio Parisi</h1>
-        <button class="add" onclick="add()">+</button>
-        <button class="remove" onclick="newComponent()">-</button>
+        <div class="container">
+            <h1>Parisi Fabio</h1>
+            <p id="plus" onclick="newComponent()">+</p>
+            <p id="minus" onclick="removeComponent()">-</p>
+        </div>
         <!-- <form id="form" method="post">
             <input type="submit" name="button1"
                     class="button" value="+" />

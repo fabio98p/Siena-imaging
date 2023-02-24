@@ -12,7 +12,7 @@ function add(){
 function remove(){
     echo "-";
 }
-for ($x = 0; $x <= 5; $x++) {
-    echo "<h1>php: $x </h1><br>";
-}
+// for ($x = 0; $x <= 5; $x++) {
+//     echo "<h1>php: $x </h1><br>";
+// }
 ?>

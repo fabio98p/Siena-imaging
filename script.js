@@ -1,1 +1,4 @@
-console.log('ciao')
+console.log("hi");
+// $("#form").submit(function(e) {
+//     e.preventDefault();
+// });

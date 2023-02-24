@@ -6,14 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siena</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
 </head>
 <body>
+    <nav>
+        <h1>Fabio Parisi</h1>
+        <!-- <button class="add" onclick="add()">+</button>
+        <button class="remove" onclick="remove()">-</button> -->
+        <form id="form" method="post">
+            <input type="submit" name="button1"
+                    class="button" value="+" />
+            
+            <input type="submit" name="button2"
+                    class="button" value="-" />
+        </form>
+    </nav>
+    <main>
     <h1>html</h1>
     <?php
-        for ($x = 0; $x <= 5; $x++) {
-            echo "<h1>php: $x </h1><br>";
-        }
+        include('script.php');
     ?>
+    </main>
+
 </body>
-<script src="./script.js"></script>
+
 </html>

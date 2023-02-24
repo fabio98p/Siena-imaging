@@ -24,7 +24,6 @@
         </form> -->
     </nav>
     <main>
-    <h1>html</h1>
     <div class="test"></div>
     <div id="components"></div>
     <?php

@@ -1,5 +1,3 @@
-console.log("hi");
-
 class component {
     id
     path

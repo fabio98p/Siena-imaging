@@ -15,20 +15,10 @@
             <p id="plus" onclick="newComponent()">+</p>
             <p id="minus" onclick="removeComponent()">-</p>
         </div>
-        <!-- <form id="form" method="post">
-            <input type="submit" name="button1"
-                    class="button" value="+" />
-            
-            <input type="submit" name="button2"
-                    class="button" value="-" />
-        </form> -->
+
     </nav>
     <main>
-    <div class="test"></div>
     <div id="components"></div>
-    <?php
-        include('script.php');
-    ?>
     </main>
 
 </body>
